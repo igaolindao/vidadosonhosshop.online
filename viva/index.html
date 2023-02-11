@@ -911,19 +911,15 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				<div class="elementor-widget-container">
 			<script src="../../ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <!--Início do codigo para delay de conteudo-->
-<style>
-    .esconder {
-        display: none;
-    }
-</style>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
 
 <script>
-        $(document).ready(function() {
-        setTimeout(() => {
-            $('.esconder').fadeIn('slow');
-        }, 648
-* 1 * 1000) // 30 é a quantidade em segundos do delay
-    })
+$('.esconder').hide();setTimeout(function() {
+ $('.esconder').show();
+}, 749400);
 </script>		</div>
 				</div>
 				<div class="elementor-element elementor-element-19d7d25a elementor-widget elementor-widget-text-editor" data-id="19d7d25a" data-element_type="widget" data-widget_type="text-editor.default">
